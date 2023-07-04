@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login" time="33.392" tests="7" failures="0" errors="0">
+   <testsuite name="login" tests="7" failures="0" errors="0" time="33.392" skipped="0" timestamp="2023-07-04 15:55:10" hostname="lenovo - DESKTOP-O1B8NF6" id="Test Suites/login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\lenovo\\git\\testing-oragnehrm\\Reports\\20230704_155507\\login\\20230704_155508"/>
+         <property name="logFiles" value="C:\\Users\\lenovo\\git\\testing-oragnehrm\\Reports\\20230704_155507\\login\\20230704_155508\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="lenovo - DESKTOP-O1B8NF6"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.32"/>
+         <property name="sessionId" value="1bb790ccdd0ca1247672d0aeeb8b30c4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/login" time="6.772" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[2023-07-04 15:55:11 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+2023-07-04 15:55:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-04 15:55:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-04 15:55:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-04 15:55:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-04 15:55:14 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/orangehrm-4.5/orangehrm-4.5/symfony/web/index.php/auth/login"): Navigate to 'http://localhost/orangehrm-4.5/orangehrm-4.5/symfony/web/index.php/auth/login' successfully
+
+2023-07-04 15:55:14 - [MESSAGE][PASSED] - Navigate to 'http://localhost/orangehrm-4.5/orangehrm-4.5/symfony/web/index.php/auth/login' successfully
+
+2023-07-04 15:55:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), username): Text 'admin' is set on object 'Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2023-07-04 15:55:15 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2023-07-04 15:55:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_Username_txtPassword"), password): Text 'Loc0365714835@' is set on object 'Object Repository/Page_OrangeHRM/input_Username_txtPassword'
+
+2023-07-04 15:55:15 - [MESSAGE][PASSED] - Text 'Loc0365714835@' is set on object 'Object Repository/Page_OrangeHRM/input_Username_txtPassword'
+
+2023-07-04 15:55:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2023-07-04 15:55:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2023-07-04 15:55:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-04 15:55:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login" time="4.594" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[2023-07-04 15:55:18 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+2023-07-04 15:55:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-04 15:55:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-04 15:55:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-04 15:55:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-04 15:55:19 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/orangehrm-4.5/orangehrm-4.5/symfony/web/index.php/auth/login"): Navigate to 'http://localhost/orangehrm-4.5/orangehrm-4.5/symfony/web/index.php/auth/login' successfully
+
+2023-07-04 15:55:19 - [MESSAGE][PASSED] - Navigate to 'http://localhost/orangehrm-4.5/orangehrm-4.5/symfony/web/index.php/auth/login' successfully
+
+2023-07-04 15:55:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), username): Text 'admin' is set on object 'Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2023-07-04 15:55:20 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2023-07-04 15:55:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_Username_txtPassword"), password): Text '089yu78589512' is set on object 'Object Repository/Page_OrangeHRM/input_Username_txtPassword'
+
+2023-07-04 15:55:21 - [MESSAGE][PASSED] - Text '089yu78589512' is set on object 'Object Repository/Page_OrangeHRM/input_Username_txtPassword'
+
+2023-07-04 15:55:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2023-07-04 15:55:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2023-07-04 15:55:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-04 15:55:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login" time="4.244" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[2023-07-04 15:55:22 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+2023-07-04 15:55:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-04 15:55:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-04 15:55:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-04 15:55:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-04 15:55:23 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/orangehrm-4.5/orangehrm-4.5/symfony/web/index.php/auth/login"): Navigate to 'http://localhost/orangehrm-4.5/orangehrm-4.5/symfony/web/index.php/auth/login' successfully
+
+2023-07-04 15:55:24 - [MESSAGE][PASSED] - Navigate to 'http://localhost/orangehrm-4.5/orangehrm-4.5/symfony/web/index.php/auth/login' successfully
+
+2023-07-04 15:55:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), username): Text 'ljh' is set on object 'Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2023-07-04 15:55:25 - [MESSAGE][PASSED] - Text 'ljh' is set on object 'Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2023-07-04 15:55:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_Username_txtPassword"), password): Text '78912giasd' is set on object 'Object Repository/Page_OrangeHRM/input_Username_txtPassword'
+
+2023-07-04 15:55:25 - [MESSAGE][PASSED] - Text '78912giasd' is set on object 'Object Repository/Page_OrangeHRM/input_Username_txtPassword'
+
+2023-07-04 15:55:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2023-07-04 15:55:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2023-07-04 15:55:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-04 15:55:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login" time="4.474" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[2023-07-04 15:55:26 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+2023-07-04 15:55:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-04 15:55:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-04 15:55:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-04 15:55:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-04 15:55:28 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/orangehrm-4.5/orangehrm-4.5/symfony/web/index.php/auth/login"): Navigate to 'http://localhost/orangehrm-4.5/orangehrm-4.5/symfony/web/index.php/auth/login' successfully
+
+2023-07-04 15:55:28 - [MESSAGE][PASSED] - Navigate to 'http://localhost/orangehrm-4.5/orangehrm-4.5/symfony/web/index.php/auth/login' successfully
+
+2023-07-04 15:55:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), username): Text 'niubf&*%^*80yij' is set on object 'Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2023-07-04 15:55:29 - [MESSAGE][PASSED] - Text 'niubf&*%^*80yij' is set on object 'Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2023-07-04 15:55:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_Username_txtPassword"), password): Text 'kasdbf23' is set on object 'Object Repository/Page_OrangeHRM/input_Username_txtPassword'
+
+2023-07-04 15:55:30 - [MESSAGE][PASSED] - Text 'kasdbf23' is set on object 'Object Repository/Page_OrangeHRM/input_Username_txtPassword'
+
+2023-07-04 15:55:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2023-07-04 15:55:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2023-07-04 15:55:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-04 15:55:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login" time="4.46" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[2023-07-04 15:55:31 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+2023-07-04 15:55:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-04 15:55:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-04 15:55:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-04 15:55:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-04 15:55:32 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/orangehrm-4.5/orangehrm-4.5/symfony/web/index.php/auth/login"): Navigate to 'http://localhost/orangehrm-4.5/orangehrm-4.5/symfony/web/index.php/auth/login' successfully
+
+2023-07-04 15:55:33 - [MESSAGE][PASSED] - Navigate to 'http://localhost/orangehrm-4.5/orangehrm-4.5/symfony/web/index.php/auth/login' successfully
+
+2023-07-04 15:55:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), username): Text 'asihba11111111111111111111111111111111111111' is set on object 'Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2023-07-04 15:55:33 - [MESSAGE][PASSED] - Text 'asihba11111111111111111111111111111111111111' is set on object 'Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2023-07-04 15:55:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_Username_txtPassword"), password): Text 'askdfbihabih111111111111111111111111111' is set on object 'Object Repository/Page_OrangeHRM/input_Username_txtPassword'
+
+2023-07-04 15:55:34 - [MESSAGE][PASSED] - Text 'askdfbihabih111111111111111111111111111' is set on object 'Object Repository/Page_OrangeHRM/input_Username_txtPassword'
+
+2023-07-04 15:55:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2023-07-04 15:55:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2023-07-04 15:55:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-04 15:55:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login" time="4.169" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[2023-07-04 15:55:35 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+2023-07-04 15:55:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-04 15:55:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-04 15:55:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-04 15:55:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-04 15:55:37 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/orangehrm-4.5/orangehrm-4.5/symfony/web/index.php/auth/login"): Navigate to 'http://localhost/orangehrm-4.5/orangehrm-4.5/symfony/web/index.php/auth/login' successfully
+
+2023-07-04 15:55:37 - [MESSAGE][PASSED] - Navigate to 'http://localhost/orangehrm-4.5/orangehrm-4.5/symfony/web/index.php/auth/login' successfully
+
+2023-07-04 15:55:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), username): Text '' is set on object 'Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2023-07-04 15:55:38 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2023-07-04 15:55:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_Username_txtPassword"), password): Text 'asdf21234' is set on object 'Object Repository/Page_OrangeHRM/input_Username_txtPassword'
+
+2023-07-04 15:55:39 - [MESSAGE][PASSED] - Text 'asdf21234' is set on object 'Object Repository/Page_OrangeHRM/input_Username_txtPassword'
+
+2023-07-04 15:55:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2023-07-04 15:55:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2023-07-04 15:55:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-04 15:55:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login" time="4.241" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[2023-07-04 15:55:40 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+2023-07-04 15:55:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-04 15:55:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-04 15:55:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-04 15:55:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-04 15:55:41 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/orangehrm-4.5/orangehrm-4.5/symfony/web/index.php/auth/login"): Navigate to 'http://localhost/orangehrm-4.5/orangehrm-4.5/symfony/web/index.php/auth/login' successfully
+
+2023-07-04 15:55:41 - [MESSAGE][PASSED] - Navigate to 'http://localhost/orangehrm-4.5/orangehrm-4.5/symfony/web/index.php/auth/login' successfully
+
+2023-07-04 15:55:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), username): Text 'ascvva' is set on object 'Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2023-07-04 15:55:42 - [MESSAGE][PASSED] - Text 'ascvva' is set on object 'Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2023-07-04 15:55:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_Username_txtPassword"), password): Text '' is set on object 'Object Repository/Page_OrangeHRM/input_Username_txtPassword'
+
+2023-07-04 15:55:43 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_OrangeHRM/input_Username_txtPassword'
+
+2023-07-04 15:55:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2023-07-04 15:55:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2023-07-04 15:55:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-04 15:55:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-04 15:55:10 - [TEST_SUITE][PASSED] - login: Test Cases/login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

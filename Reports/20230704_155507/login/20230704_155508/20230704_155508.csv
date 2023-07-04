@@ -1,0 +1,58 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+login,Chrome 114.0.0.0,,,2023-07-04 15:55:10,2023-07-04 15:55:44,33.392s,PASSED
+,,,,,,,
+Test Cases/login,Chrome 114.0.0.0,,,2023-07-04 15:55:11,2023-07-04 15:55:18,6.772s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-04 15:55:11,2023-07-04 15:55:14,2.388s,PASSED
+"navigateToUrl(""http://localhost/orangehrm-4.5/orangehrm-4.5/symfony/web/index.php/auth/login"")",Chrome 114.0.0.0,,,2023-07-04 15:55:14,2023-07-04 15:55:14,0.371s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), username)",Chrome 114.0.0.0,,,2023-07-04 15:55:14,2023-07-04 15:55:15,0.922s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_txtPassword""), password)",Chrome 114.0.0.0,,,2023-07-04 15:55:15,2023-07-04 15:55:15,0.668s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_Submit""))",Chrome 114.0.0.0,,,2023-07-04 15:55:15,2023-07-04 15:55:17,1.363s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-04 15:55:17,2023-07-04 15:55:18,0.708s,PASSED
+,,,,,,,
+Test Cases/login,Chrome 114.0.0.0,,,2023-07-04 15:55:18,2023-07-04 15:55:22,4.594s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-04 15:55:18,2023-07-04 15:55:19,1.260s,PASSED
+"navigateToUrl(""http://localhost/orangehrm-4.5/orangehrm-4.5/symfony/web/index.php/auth/login"")",Chrome 114.0.0.0,,,2023-07-04 15:55:19,2023-07-04 15:55:19,0.312s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), username)",Chrome 114.0.0.0,,,2023-07-04 15:55:19,2023-07-04 15:55:20,0.826s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_txtPassword""), password)",Chrome 114.0.0.0,,,2023-07-04 15:55:20,2023-07-04 15:55:21,0.686s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_Submit""))",Chrome 114.0.0.0,,,2023-07-04 15:55:21,2023-07-04 15:55:21,0.821s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-04 15:55:21,2023-07-04 15:55:22,0.676s,PASSED
+,,,,,,,
+Test Cases/login,Chrome 114.0.0.0,,,2023-07-04 15:55:22,2023-07-04 15:55:26,4.244s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-04 15:55:22,2023-07-04 15:55:23,1.224s,PASSED
+"navigateToUrl(""http://localhost/orangehrm-4.5/orangehrm-4.5/symfony/web/index.php/auth/login"")",Chrome 114.0.0.0,,,2023-07-04 15:55:23,2023-07-04 15:55:24,0.337s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), username)",Chrome 114.0.0.0,,,2023-07-04 15:55:24,2023-07-04 15:55:25,0.797s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_txtPassword""), password)",Chrome 114.0.0.0,,,2023-07-04 15:55:25,2023-07-04 15:55:25,0.665s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_Submit""))",Chrome 114.0.0.0,,,2023-07-04 15:55:25,2023-07-04 15:55:26,0.569s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-04 15:55:26,2023-07-04 15:55:26,0.644s,PASSED
+,,,,,,,
+Test Cases/login,Chrome 114.0.0.0,,,2023-07-04 15:55:26,2023-07-04 15:55:31,4.474s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-04 15:55:26,2023-07-04 15:55:28,1.261s,PASSED
+"navigateToUrl(""http://localhost/orangehrm-4.5/orangehrm-4.5/symfony/web/index.php/auth/login"")",Chrome 114.0.0.0,,,2023-07-04 15:55:28,2023-07-04 15:55:28,0.390s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), username)",Chrome 114.0.0.0,,,2023-07-04 15:55:28,2023-07-04 15:55:29,0.834s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_txtPassword""), password)",Chrome 114.0.0.0,,,2023-07-04 15:55:29,2023-07-04 15:55:30,0.692s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_Submit""))",Chrome 114.0.0.0,,,2023-07-04 15:55:30,2023-07-04 15:55:30,0.628s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-04 15:55:30,2023-07-04 15:55:31,0.659s,PASSED
+,,,,,,,
+Test Cases/login,Chrome 114.0.0.0,,,2023-07-04 15:55:31,2023-07-04 15:55:35,4.460s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-04 15:55:31,2023-07-04 15:55:32,1.220s,PASSED
+"navigateToUrl(""http://localhost/orangehrm-4.5/orangehrm-4.5/symfony/web/index.php/auth/login"")",Chrome 114.0.0.0,,,2023-07-04 15:55:32,2023-07-04 15:55:33,0.352s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), username)",Chrome 114.0.0.0,,,2023-07-04 15:55:33,2023-07-04 15:55:33,0.887s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_txtPassword""), password)",Chrome 114.0.0.0,,,2023-07-04 15:55:33,2023-07-04 15:55:34,0.709s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_Submit""))",Chrome 114.0.0.0,,,2023-07-04 15:55:34,2023-07-04 15:55:35,0.615s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-04 15:55:35,2023-07-04 15:55:35,0.664s,PASSED
+,,,,,,,
+Test Cases/login,Chrome 114.0.0.0,,,2023-07-04 15:55:35,2023-07-04 15:55:40,4.169s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-04 15:55:35,2023-07-04 15:55:37,1.183s,PASSED
+"navigateToUrl(""http://localhost/orangehrm-4.5/orangehrm-4.5/symfony/web/index.php/auth/login"")",Chrome 114.0.0.0,,,2023-07-04 15:55:37,2023-07-04 15:55:37,0.359s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), username)",Chrome 114.0.0.0,,,2023-07-04 15:55:37,2023-07-04 15:55:38,0.846s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_txtPassword""), password)",Chrome 114.0.0.0,,,2023-07-04 15:55:38,2023-07-04 15:55:39,0.681s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_Submit""))",Chrome 114.0.0.0,,,2023-07-04 15:55:39,2023-07-04 15:55:39,0.388s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-04 15:55:39,2023-07-04 15:55:40,0.693s,PASSED
+,,,,,,,
+Test Cases/login,Chrome 114.0.0.0,,,2023-07-04 15:55:40,2023-07-04 15:55:44,4.241s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-04 15:55:40,2023-07-04 15:55:41,1.246s,PASSED
+"navigateToUrl(""http://localhost/orangehrm-4.5/orangehrm-4.5/symfony/web/index.php/auth/login"")",Chrome 114.0.0.0,,,2023-07-04 15:55:41,2023-07-04 15:55:41,0.368s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), username)",Chrome 114.0.0.0,,,2023-07-04 15:55:41,2023-07-04 15:55:42,0.876s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_txtPassword""), password)",Chrome 114.0.0.0,,,2023-07-04 15:55:42,2023-07-04 15:55:43,0.687s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_Submit""))",Chrome 114.0.0.0,,,2023-07-04 15:55:43,2023-07-04 15:55:43,0.373s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-04 15:55:43,2023-07-04 15:55:44,0.671s,PASSED
